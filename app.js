@@ -10,7 +10,7 @@ function capitalizeFirstLetter(string) {
 button.addEventListener("click", (event) => {
   event.preventDefault();
   const valueOfInput = capitalizeFirstLetter(input.value);
-  const api = `http://elements-api.herokuapp.com/${valueOfInput}`;
+  const api = `https://elements-api.herokuapp.com/${valueOfInput}`;
   fetch(api)
     .then((res) => res.json())
     .then((data) => {
