@@ -4,7 +4,7 @@
 
 # Architecture
 
-this application is having two points in its architecture. the client and the server. server is at <link rel="elements-api.herokuapp.com">elements-api.herokuapp.com</link>
+this application is having two points in its architecture. the client and the server. server is at [http://elements-api.herokuapp.com/](http://elements-api.herokuapp.com/)
 
 To fireup the frontend, navigate to the public folder using `cd public` and install the npm package as live-server using `nodemon install -g live-server`, (prefix with sudo `sudo npm i -g live-server` on a mac computer), and in the public folder, open terminal and write `live-server`, and your full fledged application would run on port 5050.
 
